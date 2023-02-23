@@ -1,0 +1,32 @@
+{
+  "id": 760,
+  "question": "Which of the following function is used to read the content of a file?",
+  "description": null,
+  "answers": {
+    "answer_a": "fopen()",
+    "answer_b": "fread()",
+    "answer_c": "filesize()",
+    "answer_d": "file_exist()",
+    "answer_e": null,
+    "answer_f": null
+  },
+  "multiple_correct_answers": "false",
+  "correct_answers": {
+    "answer_a_correct": "false",
+    "answer_b_correct": "true",
+    "answer_c_correct": "false",
+    "answer_d_correct": "false",
+    "answer_e_correct": "false",
+    "answer_f_correct": "false"
+  },
+  "correct_answer": null,
+  "explanation": "Once a file is opened using fopen() function it can be read with a function called fread(). This function requires two arguments. These must be the file pointer and the length of the file expressed in bytes.",
+  "tip": null,
+  "tags": [
+    {
+      "name": "PHP"
+    }
+  ],
+  "category": "Code",
+  "difficulty": "Easy"
+}
